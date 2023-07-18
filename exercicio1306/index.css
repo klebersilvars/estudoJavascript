@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+    background-color: bisque;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    height: 400px;
+    width: 400px;
+}
+
+.inputNome, .inputSobrenome, .inputPeso, .inputAltura {
+    width: 300px;
+    height: 40px;
+    border-radius: 2px;
+
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.397);
+    outline: none;
+    border: none;
+}
+
+.lista {
+    margin-top: 20px;
+}
+
+.lista li {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main .form-container button {
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    height: 80px;
+    width: 120px;
+}

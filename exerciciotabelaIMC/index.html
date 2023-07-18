@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela IMC</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <main class="main">
+
+        <div class="box">
+
+            <div class="title"> <!--title-->
+                <h3>Tabela de IMC</h3>
+            </div> <!--title-->
+            <hr>
+
+            <div class="containerPeso"> <!--containerPeso-->
+
+                <div class="pesoIMC"><!--PESO IMC-->
+                    <h4>IMC</h4>
+
+                    <p>Menos do que 18,5</p>
+                    <p>Entre 18,5 e 24,9</p>
+                    <p>Entre 25 e 29,9</p>
+                    <p>Entre 30 e 34,9</p>
+                    <p>Entre 35 e 39,9</p>
+                    <p>Mais do que 40</p>
+                </div> <!--PESO IMC-->
+            
+
+                <div class="pesoResultado"> <!--PESO RESULTADO-->
+                    <h4>Resultado</h4>
+
+                    <p>Abaixo do peso</p>
+                    <p>Peso normal</p>
+                    <p>Sobrepeso</p>
+                    <p>Obesidade grau 1</p>
+                    <p>Obesidade grau 2</p>
+
+                </div> <!--PESO RESULTADO-->
+
+            </div> <!--containerPeso-->
+
+            <div class="calculandoIMC"> <!--calculandoIMC-->
+                
+                <div class="calculandoIMCtitle"> <!--calculandoIMC-->
+                    <h3>Calculando IMC</h3>
+                </div> <!--calculandoIMC-->
+
+                <div class="calculandoIMCinput"> <!--calculandoIMCinput-->
+
+                    <div class="inputPesoContainer"> <!--InputPesoContainer-->
+                        <label>Peso:</label>
+                        <input type="text" placeholder="Ex: 90" class="pesoInput">
+                    </div> <!--InputPesoContainer-->
+
+                    <div class="inputAlturaContainer"> <!--InputAlturaContainer-->
+                        <label>Altura:</label>
+                        <input type="text" placeholder="Ex: 1.90" class="alturaInput">
+                    </div> <!--InputAlturaContainer-->
+
+                </div> <!--calculandoIMCinput-->
+
+            </div> <!--calculandoIMC-->
+
+            <div class="divButton"> <!--divButton-->
+                <button class="calcularButton">Calcular</button>
+            </div> <!--divButton-->
+
+            <div class="div-resultado"> <!--div resultado-->
+                <p class="resultadoPara"></p>
+            </div> <!--div resultado-->
+        </div> <!--box-->
+
+    </main> <!--main-->
+
+    <script src="index.js"></script>
+</body>
+</html>
