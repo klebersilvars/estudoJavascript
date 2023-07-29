@@ -5,7 +5,7 @@ const numeros = [5,4,3,2,1,40,50,10,9,35,23];
 console.log(numeros)
 
 
-const numerosFiltrados = numeros.filter(function(valor, indice, array) {
+const numerosFiltrados = numeros.filter(function(valor) {
     return valor > 10
 })
 console.log(numerosFiltrados)
